@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eksame - Thomas </title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logoBox">
+                <div class="orangebox"></div>
+                <a href="#"><img class="logo" src="./images/burger_ikon.png" alt="Burgos logo"></a>
+                <p class="logo">Burgos</p>
+            </div>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Galleri</li></a>
+                <a href="#"><li>Anbefalede</li></a>
+                <a href="#"><li>Kontakt</li></a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="favourit">
+        <div class="transbox">
+            <h1>Vælg Din Favorit Yummy</h1>
+        </div>
+        <button>Start</button>
+    </div>
+
+    <section class="content">
+        <article class="tilbud">
+            <img src="./images/reklame01.jpg" alt="reklame tilbud">
+            <h1>-20%</h1>
+            <h2>sommer-tilbud</h2>
+            <p>1g hakket oksekød med lavt fedtprocent 8-12%. Perfekt som hakkebøffer til sommeren lækreste burger.</p>
+        </article>
+        <article class="galleri">
+            <h1>Galleri</h1>
+            <div class="max flex-desktop two-cols content">
+                <main class="main galleri-main">
+                    <!--Billede fremviser-->
+     
+                     <iframe src="./images/galleri04.jpg" frameborder="0" name="frame" class="frame" scrolling="no">
+                     </iframe>
+     
+                 </main>
+                <!--Miniature billeder-->
+                <ul class="thumbs">
+                    <li>
+                        <a href="./images/galleri04.jpg" target="frame">
+                            <img class="resize" src="./images/galleri04.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/galleri05.jpg" target="frame">
+                            <img class="resize" src="./images/galleri05.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/galleri06.jpg" target="frame">
+                            <img class="resize" src="./images/galleri06.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="opskrift">
+                <h2>Vores YUMMY opskrift</h2>
+                <p>Dagen før koges vand op i en lille gryde sammen eddike, sukker og peberkorn. Rødløg halveres, skæres i tynde skiver og kommes i lagen, så du har syltede rødløg til verdens bedste burger. <br>
+
+                    Baconskiver kommes på en bageplade med bagepapir og steges sprøde i ovnen, ved 200 grader varmluft og lægges til afdrypning på køkkenrulle. <br>
+                    
+                    Burgerbøfferne grilles eller steges i ca. 3 minutter på hver side (afhængig af tykkelse) og krydres med salt og friskkværnet peber. <br>
+                    
+                    Crispsalat skylles, slynges og brækkes i passende stykker (Iceberg, Romaine eller andre salater kan også anvendes efter behag). <br>
+                    
+                    Flæk fire burgerboller og smør med chilimayo på både over- og underbolle, læg salat og en bøf oven på salaten i burgeren. Læg så et stykke ost og de lækre syltede rødløg på burgeren. <br>
+                    
+                    Endelig toppes med et par sprøde skiver bacon og friske ærteskud (ærteskud kan eventuelt erstattes med rucola eller babyspinat).
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section class="favoritter">
+        <h1>anbefalede yummies</h1>
+        <div class="favorit1">
+            <img class="favorit1__img" src="./images/favorit01.jpg" alt="grilled burger">
+            <button class="offer">
+                -30%
+            </button>
+            <h2>Grilled Burger</h2>
+            <p>65kr</p>
+            <button class="favorit__button">
+                <img src="./images/burger_ikon@2x.png" alt="favorit">
+                <p>Favorit</p>
+            </button>
+        </div>
+        <div class="favorit2">
+            <img class="favorit02__img" src="./images/favorit02.jpg" alt="The Firehouse burger">
+            <h2>The Firehouse</h2>
+            <p>70kr</p>
+            <button class="favorit__button">
+                <img src="./images/burger_ikon@2x.png" alt="favorit">
+                <p>Favorit</p>
+            </button>
+        </div>
+        <div class="favorit3">
+            <img class="favorit03__img" src="./images/favorit03.jpg" alt="onion burger">
+            <h2>Onion burger</h2>
+            <p>90kr</p>
+            <button class="favorit__button">
+                <img src="./images/burger_ikon@2x.png" alt="favorit">
+                <p>Favorit</p>
+            </button>
+        </div>
+        <div class="favorit4">
+            <img class="favorit04__img" src="./images/favorit04.jpg" alt="Super vegan">
+            <h2>Super Vegan</h2>
+            <p>70kr</p>
+            <button class="favorit__button">
+                <img src="./images/burger_ikon@2x.png" alt="favorit">
+                <p>Favorit</p>
+            </button>
+        </div>
+    </section>
+
+    <div class="kontaktform__div">
+        <section class="kontaktform">
+            <form method="get" name="kontaktform" id="kontaktform">
+                <!-- <div class="flexName"> -->
+                    <!-- <h1>kontaktform</h1> -->
+                    <h1>Kontakt</h1>
+                    <div class="flex">
+                        <div class="formgroup">
+                        <label for="fullName"></label>
+                        <input type="text" placeholder="Navn " name="fullName">
+                        <small class="formgroup__errormsg"></small>
+                    </div>
+                <!-- </div> -->
+                    <div class="formgroup" id="email">
+                        <label for="email"></label>
+                        <input type="text" placeholder="Email" name="email">
+                        <small class="formgroup__errormsg"></small>
+                    </div>
+                </div>
+                <div class="formgroup">
+                    <label for="reason"></label>
+                    <textarea name="reason" style="resize: none; height: 4rem;" placeholder="Besked"></textarea>
+                    <small class="formgroup__errormsg"></small>
+                </div>
+                <button class="kontaktform__btn" type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <img src="./images/footer01.png" alt="burger billede">
+        <h1>følg os på instagram</h1>
+        <p class="insta__navn">@Burgos_YUMMIES</p>
+        <p class="footer__text">Yummy © Burgos burgers ApS – All rights reserved Copyrights 2022</p>
+        <div class="footerbg"></div>
+    </footer>
+
+
+    <script src="./validate.js"></script>
+</body>
+</html>

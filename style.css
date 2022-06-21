@@ -1,0 +1,346 @@
+* {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+    padding-right: 5rem;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(./images/hero01.jpg);
+    background-position: right;
+    width: 100%;
+    height: 50em;
+    object-position: center;
+    position: absolute;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logoBox {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.logoBox p {
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+
+.favourit {
+    background-color: rgba(255, 166, 0, 0.658);
+    /* opacity: 50%; */
+    height: 50em;
+    width: 25em;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+    position: relative;
+}
+
+.favourit h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.favourit button {
+    width: 12rem;
+    height: 4rem;
+    background-color: rgb(255, 195, 85);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.tilbud img {
+    width: 73em;
+    height: 28em;
+    object-fit: cover;
+    padding: 10rem 0 0 10rem;
+    position: absolute;
+}
+
+.tilbud h1 {
+    position: relative;
+    top: 14rem;
+    left: 15rem;
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+}
+
+.tilbud h2 {
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+    width: 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.tilbud p {
+    position: relative;
+    top: 17rem;
+    left: 15rem;
+    width: 29.5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.galleri {
+    margin-top: 30em;
+}
+
+.galleri h1 {
+    position: relative;
+    left: 10rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.thumbs {
+    position: relative;
+    left: 7.7rem;
+    list-style: none;
+    width: 25%;
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 2rem;
+}
+
+.main iframe {
+    position: relative;
+    left: 10.2rem;
+    width: 50em;
+    height: 50rem;
+}
+
+.resize {
+    width: 15em;
+    height: auto;
+}
+
+.opskrift {
+    position: absolute;
+    right: 2rem;
+    top: 108em;
+    width: 28rem;
+    line-height: 2rem;
+    color: grey;
+}
+
+.opskrift h2 {
+    padding-bottom: 2rem;
+    color: black;
+}
+
+.favoritter {
+    height: 45em;
+    background-color: orange;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.favoritter h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 61.5em;
+    left: 10.2rem;
+}
+
+.favoritter h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.favoritter p {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.favorit__button {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(255, 195, 85);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 4.5rem;
+}
+
+.favorit__button img {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.4rem;
+    padding-right: .5rem;
+}
+
+.offer {
+    position: absolute;
+    left: 23rem;
+    margin-top: 1rem;
+    background-color: orange;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    /* padding-top: 10rem; */
+    line-height: 3rem;
+}
+
+input {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 0.2em;
+}
+
+.kontaktform__btn {
+    margin-top: 1rem;
+    margin-left: 35rem;
+    width: 7rem;
+    height: 3rem;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    width: 20%;
+    gap: 1rem;
+}
+
+.flexName {
+    display: flex;
+    width: 20%;
+}
+
+textarea {
+    border-radius: 0.2rem;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.selectors {
+    display: flex;
+    width: 22.3rem;
+    height: 2rem;
+    gap: 1rem;
+    border-radius: 3em;
+}
+
+.kontaktform {
+    width: 32.4em;
+    padding: 1em;
+}
+
+.kontaktform__div {
+    height: 50em;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 25rem;
+}
+
+.kontaktform h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.footerbg {
+    background-color: black;
+    height: 30em;
+}
+
+footer img {
+    position: absolute;
+    top: 265em;
+    left: 3rem;
+    height: 80%;
+    margin: 0;
+}
+
+footer h1 {
+    position: absolute;
+    top: 94em;
+    right: 8rem;
+    width: 7em;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+}
+
+.insta__navn {
+    position: absolute;
+    top: 290em;
+    right: 18.4rem;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+}
+
+.footer__text {
+    position: absolute;
+    top: 433em;
+    right: 34rem;
+    text-transform: uppercase;
+    font-size: .7em;
+    color: white;
+}
+
+.orangebox {
+    background-color: rgba(255, 166, 0, 0.658);
+    /* opacity: 50%; */
+    height: 4em;
+    width: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
